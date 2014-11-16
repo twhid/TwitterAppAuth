@@ -1,0 +1,24 @@
+{
+    "name": "twhid/twitter-app-auth",
+    "description": "Simple PHP library to use Twitter's Application-only Authorization",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tim Whidden",
+            "email": "twhid@twhid.com"
+        }
+    ],
+
+    "type": "library",
+
+    "require": {
+        "rmccue/requests": "v1.6.1"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "TwitterAppAuth\\Tests": "tests/",
+            "TwitterAppAuth": "src/"
+        }
+    }
+}
